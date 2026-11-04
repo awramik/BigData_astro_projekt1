@@ -1,0 +1,18 @@
+# Środowisko wirtualne
+venv/
+env/
+ENV/
+
+# Pliki z poufnymi danymi i hasłami do bazy
+*.env
+atlas-credentials.env
+
+# Pliki tymczasowe Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Lokalne pliki baz danych lub logi
+*.log
+data/
